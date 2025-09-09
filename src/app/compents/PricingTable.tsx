@@ -60,7 +60,7 @@ export default function PricingTable() {
               </span>
             )}
             <h3 className="text-xl font-semibold text-orange-400">{plan.name}</h3>
-            <p className="text-3xl font-bold text-orange-400-600 mt-2">
+            <p className="text-3xl font-bold text-black mt-2">
               {plan.price}
             </p>
 
@@ -76,7 +76,7 @@ export default function PricingTable() {
               className={`mt-8 px-6 py-2 rounded-xl font-medium transition 
                 ${
                   plan.highlight
-                    ? "bg-indigo-600 text-white hover:bg-indigo-700"
+                    ? "bg-indigo-600 text-black hover:bg-indigo-700"
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 }`}
             >
